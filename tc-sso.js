@@ -8,4 +8,4 @@ if (s1 > -1) {
 }
 window["tolstoycomments"] = window["tolstoycomments"] || [];
 window["tolstoycomments"].push({action:"init", values:{visible:true, sso:sso, show_classic_mobile:0}});
-(function(w,d,s,l,x){w[l]=w[l]||[];w[l].t=w[l].t||new Date().getTime();var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://cackle.me/tc/widget.js";f.parentNode.insertBefore(j,f);})(window,document,"script","tolstoycomments","x");
+!(function(w,d,s,l,x){w[l]=w[l]||[];w[l].t=w[l].t||new Date().getTime();var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=!0;j.src="//web.tolstoycomments.com/sitejs/app.js?i="+l+"&x="+x+"&t="+w[l].t;f.parentNode.insertBefore(j,f);})(window,document,"script","tolstoycomments","6950");
